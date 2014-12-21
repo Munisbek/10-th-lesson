@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Username</title>
+</head>
+<body>
+<div class="container">
+    <h2 class="text-center">Hello Bootstrap</h2>
+    <div class="row">
+        <br>
+        <div class="col-xs-6 well">
+    <div class="form-group">
+<label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email" title="Видите свою электронную почту" class="form-control">
+        </div>
+            <div class="form-group">
+                <label for="pass">Password</label>
+                <input type="password" class="form-control" id="pass" title="Видите свой пароль" placeholder="Password">
+            </div>
+<div class="checkbox">
+    <label class="text-capitalize"><input type="checkbox">remember login</label>
+    <p>(if this is a private computers)</p>
+</div>
+  <button class="btn btn-block btn-success">Login</button>
+            <button class="btn btn-block btn-default">Help to login</button>
+            </div>
+        <div class="col-xs-6">
+<h3 >Register now for <font color="#228b22">free</font></h3>
+            <div class="checkbox">
+            <label><input type="checkbox">See all your orders</label><br>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox">Fast re-order</label><br>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox">Save your favorite</label><br>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox">fast checkout</label><br>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox">Get a gift(only new customers) </label><br>
+            </div>
+            <a href="#" class="btn btn-link">Read more</a>
+            <button class="btn btn-info btn-block">Yes please, register now!</button>
+            </div>
+        </div>
+</div>
+</body>
+</html>
