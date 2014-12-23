@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Global</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <br>
+    <button class="btn btn-success"><span class="glyphicon glyphicon-plus">Add random item</span></button>
+    <br/>
+
+
+    <input type="search" placeholder="global search" class="form-control" style="position: relative; bottom: -72px">
+    <table class="table table-striped">
+        <tr>
+            <th>first name</th>
+            <th>last name</th>
+            <th>birth name</th>
+            <th>birth day</th>
+            <th></th>
+
+        </tr>
+        <tr>
+
+            <td><p></p></td>
+        </tr>
+        <tr>
+            <td>Smith</td>
+            <td>Will</td>
+            <td>Bill</td>
+            <td>1968</td>
+            <td>
+                <button class="btn btn-danger"><span class="glyphicon glyphicon-remove-circle"></span></button>
+            </td>
+        </tr>
+        <tr>
+            <td>Tom</td>
+            <td>Cruse</td>
+            <td>Tommy</td>
+            <td>1963</td>
+            <td>
+                <button class="btn btn-danger"><span class="glyphicon glyphicon-remove-circle"></span></button>
+            </td>
+        </tr>
+        <tr>
+            <td>Jackson</td>
+            <td>Micheal</td>
+            <td>Mice</td>
+            <td>1958</td>
+            <td>
+                <button class="btn btn-danger"><span class="glyphicon glyphicon-remove-circle"></span></button>
+            </td>
+        </tr>
+        <tr>
+            <td>Bruce</td>
+            <td>Willis</td>
+            <td>Bruce</td>
+            <td>1956</td>
+            <td>
+                <button class="btn btn-danger"><span class="glyphicon glyphicon-remove-circle"></span></button>
+            </td>
+        </tr>
+    </table>
+
+
+    <div class="text-center">
+        <button class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span>Improve the documentation</button>
+    </div>
+</div>
+</body>
+</html>
